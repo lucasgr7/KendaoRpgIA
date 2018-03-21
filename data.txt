@@ -1,0 +1,226 @@
+get_posicao_mover_monstro([x,y]coordenadas_monstro, int raio_visao, object mapa, list<jogador> jogadores, enum personalidade_monstro)
+
+personalidade_monstro: { passivo, ativo, medroso }
+
+jogador: {
+   id: 1,
+   x: 2,
+   y: 5  
+}
+
+mapa:
+
+{
+   id:1,
+   largura:6,
+   altura:5,
+   objetos : [
+	  {  
+         id:1,
+         x:2,
+         y:2
+      }
+   ],
+   blocos:[
+   
+      {  
+         id:1,
+         x:0,
+         y:0,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:1,
+         y:0,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:2,
+         y:0,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:3,
+         y:0,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:4,
+         y:0,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:5,
+         y:0,
+         tipo:0
+      },
+	  
+	  
+	  
+	  {  
+         id:1,
+         x:0,
+         y:1,
+         tipo:0
+      },
+	  {  
+         id:8,
+         x:1,
+         y:1,
+         tipo:0
+      },
+	  {  
+         id:8,
+         x:2,
+         y:1,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:3,
+         y:1,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:4,
+         y:1,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:5,
+         y:1,
+         tipo:0
+      },
+	  
+	  
+	  
+	  {  
+         id:1,
+         x:0,
+         y:2,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:1,
+         y:2,
+         tipo:0
+      },
+	  {  
+         id:8,
+         x:2,
+         y:2,
+         tipo:1
+      },
+	  {  
+         id:8,
+         x:3,
+         y:2,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:4,
+         y:2,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:5,
+         y:2,
+         tipo:0
+      },
+	  
+	  
+	  
+	  {  
+         id:1,
+         x:0,
+         y:3,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:1,
+         y:3,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:2,
+         y:3,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:3,
+         y:3,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:4,
+         y:3,
+         tipo:0
+      },
+	  {  
+         id:37,
+         x:5,
+         y:3,
+         tipo:0,
+		 teletransporte : {
+			mapa : 2,
+			x : 1,
+			y : 1,
+			z : 0
+		 }
+      },
+	  
+	  
+	  
+	  {  
+         id:1,
+         x:0,
+         y:4,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:1,
+         y:4,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:2,
+         y:4,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:3,
+         y:4,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:4,
+         y:4,
+         tipo:0
+      },
+	  {  
+         id:1,
+         x:5,
+         y:4,
+         tipo:0
+      }
+	  
+   ]
+}
